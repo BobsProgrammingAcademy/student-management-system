@@ -57,6 +57,16 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
+#### 5. Create an admin user to access the Django Admin interface
+
+From the **root** directory run:
+
+```bash
+python manage.py createsuperuser
+```
+
+When prompted, enter a username, email, and password.
+
 ## Run the application
 
 From the **root** directory run:
