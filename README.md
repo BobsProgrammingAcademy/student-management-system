@@ -4,6 +4,14 @@ This is a student management system built using **Django 4** and **Bootstrap 5**
 
 ![plot](https://github.com/BobsProgrammingAcademy/Student-Management-System/blob/master/students/static/images/homepage.png?raw=true)
 
+
+## Table of Contents 
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Run the application](#run-the-application)
+- [View the application](#view-the-application)
+
+
 ## Prerequisites
 
 Install the following prerequisites:
