@@ -1,6 +1,6 @@
 # Student Management System
 
-This is a student management system built using **Django 4.0** and **Bootstrap 5**.
+This is a student management system built using **Django 4.0.4** and **Bootstrap 5.1.3**.
 
 ![plot](https://github.com/BobsProgrammingAcademy/Student-Management-System/blob/master/students/static/images/homepage.png?raw=true)
 
@@ -65,7 +65,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-#### 5. Create an admin user to access the Django Admin interface
+### 5. Create an admin user to access the Django Admin interface
 
 From the **root** directory run:
 
