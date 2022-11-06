@@ -10,6 +10,7 @@ This is a student management system built using **Django 4** and **Bootstrap 5**
 - [Installation](#installation)
 - [Run the application](#run-the-application)
 - [View the application](#view-the-application)
+- [Copyright and License](#copyright-and-license)
 
 
 ## Prerequisites
@@ -86,3 +87,8 @@ python manage.py runserver
 ## View the application
 
 Go to http://127.0.0.1:8000/ to view the application.
+
+
+## Copyright and License
+
+Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
