@@ -5,15 +5,17 @@ from django.urls import reverse
 from .models import Student
 from .forms import StudentForm
 
+
 # Create your views here.
 def index(request):
   return render(request, 'students/index.html', {
     'students': Student.objects.all()
   })
 
+
 def view_student(request, id):
-  student = Student.objects.get(pk=id)
   return HttpResponseRedirect(reverse('index'))
+
 
 def add(request):
   if request.method == 'POST':
@@ -27,12 +29,12 @@ def add(request):
       new_gpa = form.cleaned_data['gpa']
 
       new_student = Student(
-        student_number = new_student_number,
-        first_name = new_first_name,
-        last_name = new_last_name,
-        email = new_email,
-        field_of_study = new_field_of_study,
-        gpa = new_gpa
+        student_number=new_student_number,
+        first_name=new_first_name,
+        last_name=new_last_name,
+        email=new_email,
+        field_of_study=new_field_of_study,
+        gpa=new_gpa
       )
       new_student.save()
       return render(request, 'students/add.html', {
@@ -44,6 +46,7 @@ def add(request):
   return render(request, 'students/add.html', {
     'form': StudentForm()
   })
+
 
 def edit(request, id):
   if request.method == 'POST':
@@ -61,6 +64,7 @@ def edit(request, id):
   return render(request, 'students/edit.html', {
     'form': form
   })
+
 
 def delete(request, id):
   if request.method == 'POST':
