@@ -23,7 +23,7 @@ Install the following prerequisites:
 
 ## Installation
 
-### 1. Create a virtual environment
+#### 1. Create a virtual environment
 
 From the **root** directory run:
 
@@ -31,7 +31,7 @@ From the **root** directory run:
 python -m venv venv
 ```
 
-### 2. Activate the virtual environment
+#### 2. Activate the virtual environment
 
 From the **root** directory run:
 
@@ -47,7 +47,7 @@ On Windows:
 venv\scripts\activate
 ```
 
-### 3. Install required dependencies
+#### 3. Install required dependencies
 
 From the **root** directory run:
 
@@ -55,7 +55,7 @@ From the **root** directory run:
 pip install -r requirements.txt
 ```
 
-### 4. Run migrations
+#### 4. Run migrations
 
 From the **root** directory run:
 
@@ -66,7 +66,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 5. Create an admin user to access the Django Admin interface
+#### 5. Create an admin user to access the Django Admin interface
 
 From the **root** directory run:
 
@@ -87,7 +87,6 @@ python manage.py runserver
 ## View the application
 
 Go to http://127.0.0.1:8000/ to view the application.
-
 
 ## Copyright and License
 
