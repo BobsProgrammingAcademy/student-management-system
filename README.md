@@ -13,7 +13,7 @@ This is a student management system built using **Django 4**, **HTML 5**, **CSS 
 - [Copyright and License](#copyright-and-license)
 
 
-## Prerequisites
+### Prerequisites
 
 Install the following prerequisites:
 
@@ -21,7 +21,7 @@ Install the following prerequisites:
 2. [Visual Studio Code](https://code.visualstudio.com/download)
 
 
-## Installation
+### Installation
 
 #### 1. Create a virtual environment
 
@@ -76,7 +76,7 @@ python manage.py createsuperuser
 
 When prompted, enter a username, email, and password.
 
-## Run the application
+### Run the application
 
 From the **root** directory run:
 
@@ -84,10 +84,10 @@ From the **root** directory run:
 python manage.py runserver
 ```
 
-## View the application
+### View the application
 
 Go to http://127.0.0.1:8000/ to view the application.
 
-## Copyright and License
+### Copyright and License
 
 Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
