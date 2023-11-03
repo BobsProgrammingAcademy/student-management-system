@@ -26,7 +26,7 @@ Install the following prerequisites:
 
 #### 1. Create a virtual environment
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 python -m venv venv
@@ -34,7 +34,7 @@ python -m venv venv
 
 #### 2. Activate the virtual environment
 
-From the **root** directory run:
+From the **root** directory, run:
 
 On macOS:
 
@@ -50,7 +50,7 @@ venv\scripts\activate
 
 #### 3. Install required dependencies
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 pip install -r requirements.txt
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 #### 4. Run migrations
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 python manage.py makemigrations
@@ -69,7 +69,7 @@ python manage.py migrate
 
 #### 5. Create an admin user to access the Django Admin interface
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 python manage.py createsuperuser
@@ -79,7 +79,7 @@ When prompted, enter a username, email, and password.
 
 ### Run the application
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 python manage.py runserver
