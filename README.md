@@ -18,7 +18,7 @@ This is a student management system built using **Django 4**, **HTML 5**, **CSS 
 Install the following prerequisites:
 
 1. [Python 3.8-3.11](https://www.python.org/downloads/)
-<br> This project uses **Django v4.2.4**. For Django to work, you must have a correct Python version installed on your machine. More information [here](https://django.readthedocs.io/en/stable/faq/install.html).
+<br> This project uses **Django v4.2.4**. For Django to work, you must install a correct version of Python on your machine. More information [here](https://django.readthedocs.io/en/stable/faq/install.html).
 2. [Visual Studio Code](https://code.visualstudio.com/download)
 
 
