@@ -9,6 +9,7 @@ This is a student management system built using **Django 4**, **HTML 5**, **CSS 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Run the application](#run-the-application)
+- [Run the tests](#run-the-tests)
 - [View the application](#view-the-application)
 - [Copyright and License](#copyright-and-license)
 
@@ -77,6 +78,7 @@ python manage.py createsuperuser
 
 When prompted, enter a username, email, and password.
 
+
 ### Run the application
 
 From the **root** directory, run:
@@ -85,9 +87,21 @@ From the **root** directory, run:
 python manage.py runserver
 ```
 
+
+### Run the tests
+
+From the **root** directory, run:
+
+```bash
+python manage.py test --pattern="tests.py"
+
+```
+
+
 ### View the application
 
 Go to http://127.0.0.1:8000/ to view the application.
+
 
 ### Copyright and License
 
